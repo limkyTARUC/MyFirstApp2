@@ -8,7 +8,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button1, button2;
+    private Button button1;
+    private Button button3;
     private EditText editText;
 
     @Override
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         button1=findViewById(R.id.button1);
         editText=findViewById(R.id.editText);
-        button2=findViewById(R.id.button2);
+        button3=findViewById(R.id.button3);
 
 
 
